@@ -17,6 +17,12 @@
       "bandara_asal": "Ngurah Rai (DPS)",
       "bandara_tujuan": "Juanda (SUB)",
       "harga_tiket": 800000
+    },
+    {
+      "maskapai": "Batik Air",
+      "bandara_asal": "Soekarno-Hatta (CGK)",
+      "bandara_tujuan": "Ngurah Rai (DPS)",
+      "harga_tiket": "90000"
     }
   ]
 }

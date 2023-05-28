@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "maskapai": "Garuda Indonesia",
+            "bandara_asal": "Soekarno-Hatta (CGK)",
+            "bandara_tujuan": "Ngurah Rai (DPS)",
+            "harga_tiket": 1500000
+        },
+        {
+            "maskapai": "Lion Air",
+            "bandara_asal": "Husein Sastranegara (BDO)",
+            "bandara_tujuan": "Soekarno-Hatta (CGK)",
+            "harga_tiket": 500000
+        },
+        {
+            "maskapai": "AirAsia",
+            "bandara_asal": "Ngurah Rai (DPS)",
+            "bandara_tujuan": "Juanda (SUB)",
+            "harga_tiket": 800000
+        },
+        {
+            "maskapai": "Batik Air",
+            "bandara_asal": "Soekarno-Hatta (CGK)",
+            "bandara_tujuan": "Ngurah Rai (DPS)",
+            "harga_tiket": "90000"
+        },
+        {
+            "maskapai": "qatar air",
+            "bandara_asal": "Soekarno-Hatta (CGK)",
+            "bandara_tujuan": "Ngurah Rai (DPS)",
+            "harga_tiket": "90000"
+        }
+    ]
+}

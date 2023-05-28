@@ -39,7 +39,7 @@
   <main>
     <div class="formpendaftaran">
       <h2>Pendaftaran Rute Penerbangan</h2>
-      <form action="daftarrute.php" method="post">
+      <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <table>
           <tr>
             <td>
@@ -88,6 +88,36 @@
           </tr>
         </table>
       </form>
+      <?php
+      if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        // Tangkap data yang dikirimkan melalui form
+        $maskapai = $_POST['maskapai'];
+        $bandara_asal = $_POST['bandara_asal'];
+        $bandara_tujuan = $_POST['bandara_tujuan'];
+        $harga_tiket = $_POST['harga_tiket'];
+
+        // Baca konten file JSON
+        $jsonData = file_get_contents('data/data.json');
+
+        // Decode konten JSON menjadi array
+        $data = json_decode($jsonData, true);
+
+        // Tambahkan data baru ke dalam array "data"
+        $newData = [
+          "maskapai" => $maskapai,
+          "bandara_asal" => $bandara_asal,
+          "bandara_tujuan" => $bandara_tujuan,
+          "harga_tiket" => $harga_tiket
+        ];
+
+        $data["data"][] = $newData;
+
+        // Encode array ke format JSON
+        $newJsonData = json_encode($data, JSON_PRETTY_PRINT);
+
+        // Simpan kembali ke file JSON
+        file_put_contents('data/data.json', $newJsonData);
+      } ?>
     </div>
   </main>
   <footer>
