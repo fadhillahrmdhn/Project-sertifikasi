@@ -37,59 +37,57 @@
     </nav>
   </header>
   <main>
-    <div class="rutepenerbangan">
-      <div class="formpendaftaran">
-        <h2>Pendaftaran Rute Penerbangan</h2>
-        <form action="daftarrute.php" method="post">
-          <table>
-            <tr>
-              <td>
-                <label for="maskapai">Maskapai</label>
-              </td>
-              <td>:</td>
-              <td><input type="text" name="maskapai" placeholder="Nama Maskapai" required /></td>
-            </tr>
-            <tr>
-              <td>
-                <label for="bandara_asal">Bandara Asal</label>
-              </td>
-              <td>:</td>
-              <td>
-                <select name="bandara_asal" id="bandara_asal">
-                  <option value="Soekarno-Hatta (CGK)">Soekarno-Hatta (CGK)</option>
-                  <option value="Husein Sastranegara (BDO)">Husein Sastranegara (BDO)</option>
-                  <option value="Abdul Rachman saleh (MLG)">Abdul Rachman saleh (MLG)</option>
-                  <option value="Juanda (SUB)">Juanda (SUB)</option>
-                </select>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label for="bandara_tujuan">Bandara Tujuan</label>
-              </td>
-              <td>:</td>
-              <td>
-                <select name="bandara_tujuan" id="bandara_tujuan">
-                  <option value="Ngurah Rai (DPS)">Ngurah Rai (DPS)</option>
-                  <option value="Hasanuddin (UPG)">Hasanuddin (UPG)</option>
-                  <option value="Inanwatan (INX)">Inanwatan (INX)</option>
-                  <option value="Sultan Iskandarmuda (BTJ)">Sultan Iskandarmuda (BTJ)</option>
-                </select>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label for="harga_tiket">Harga Tiket</label>
-              </td>
-              <td>:</td>
-              <td><input type="text" name="harga_tiket" placeholder="Harga Tiket" required /></td>
-            </tr>
-            <tr>
-              <td colspan="3"><button class="button" type="submit" value="kirim">kirim</button></td>
-            </tr>
-          </table>
-        </form>
-      </div>
+    <div class="formpendaftaran">
+      <h2>Pendaftaran Rute Penerbangan</h2>
+      <form action="daftarrute.php" method="post">
+        <table>
+          <tr>
+            <td>
+              <label for="maskapai">Maskapai</label>
+            </td>
+            <td>:</td>
+            <td><input type="text" name="maskapai" placeholder="Nama Maskapai" required /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="bandara_asal">Bandara Asal</label>
+            </td>
+            <td>:</td>
+            <td>
+              <select name="bandara_asal" id="bandara_asal">
+                <option value="Soekarno-Hatta (CGK)">Soekarno-Hatta (CGK)</option>
+                <option value="Husein Sastranegara (BDO)">Husein Sastranegara (BDO)</option>
+                <option value="Abdul Rachman saleh (MLG)">Abdul Rachman saleh (MLG)</option>
+                <option value="Juanda (SUB)">Juanda (SUB)</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="bandara_tujuan">Bandara Tujuan</label>
+            </td>
+            <td>:</td>
+            <td>
+              <select name="bandara_tujuan" id="bandara_tujuan">
+                <option value="Ngurah Rai (DPS)">Ngurah Rai (DPS)</option>
+                <option value="Hasanuddin (UPG)">Hasanuddin (UPG)</option>
+                <option value="Inanwatan (INX)">Inanwatan (INX)</option>
+                <option value="Sultan Iskandarmuda (BTJ)">Sultan Iskandarmuda (BTJ)</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="harga_tiket">Harga Tiket</label>
+            </td>
+            <td>:</td>
+            <td><input type="text" name="harga_tiket" placeholder="Harga Tiket" required /></td>
+          </tr>
+          <tr>
+            <td colspan="3"><button class="button" type="submit" value="kirim">kirim</button></td>
+          </tr>
+        </table>
+      </form>
     </div>
   </main>
   <footer>

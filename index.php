@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="assets/style/main.css" />
 </head>
 
-<body>
+<body class="background">
   <header>
     <nav class="navbar bg-white shadow-sm">
       <hr class="border border-info border-3 opacity-75" />
