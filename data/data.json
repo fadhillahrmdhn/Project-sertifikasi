@@ -1,23 +1,22 @@
 {
-    "rute": [
-      {
-        "maskapai": "Garuda Indonesia",
-        "kode_penerbangan": "GA123",
-        "asal": "Jakarta",
-        "tujuan": "Denpasar"
-      },
-      {
-        "maskapai": "AirAsia",
-        "kode_penerbangan": "QZ789",
-        "asal": "Surabaya",
-        "tujuan": "Bali"
-      },
-      {
-        "maskapai": "Lion Air",
-        "kode_penerbangan": "JT456",
-        "asal": "Bandung",
-        "tujuan": "Yogyakarta"
-      }
-    ]
-  }
-  
+  "data": [
+    {
+      "maskapai": "Garuda Indonesia",
+      "bandara_asal": "Soekarno-Hatta (CGK)",
+      "bandara_tujuan": "Ngurah Rai (DPS)",
+      "harga_tiket": 1500000
+    },
+    {
+      "maskapai": "Lion Air",
+      "bandara_asal": "Husein Sastranegara (BDO)",
+      "bandara_tujuan": "Soekarno-Hatta (CGK)",
+      "harga_tiket": 500000
+    },
+    {
+      "maskapai": "AirAsia",
+      "bandara_asal": "Ngurah Rai (DPS)",
+      "bandara_tujuan": "Juanda (SUB)",
+      "harga_tiket": 800000
+    }
+  ]
+}
