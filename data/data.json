@@ -1,0 +1,23 @@
+{
+    "rute": [
+      {
+        "maskapai": "Garuda Indonesia",
+        "kode_penerbangan": "GA123",
+        "asal": "Jakarta",
+        "tujuan": "Denpasar"
+      },
+      {
+        "maskapai": "AirAsia",
+        "kode_penerbangan": "QZ789",
+        "asal": "Surabaya",
+        "tujuan": "Bali"
+      },
+      {
+        "maskapai": "Lion Air",
+        "kode_penerbangan": "JT456",
+        "asal": "Bandung",
+        "tujuan": "Yogyakarta"
+      }
+    ]
+  }
+  

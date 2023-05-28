@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f1f1f1;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  font-weight: bold;
+  text-shadow: 1px 1px rgb(209, 209, 209);
+}
+
+nav hr {
+  position: absolute;
+  margin-bottom: 68px;
+  width: 100%;
+}
+
+nav ul li{
+  display: inline;
+  padding-left: 18px;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+.navitem {
+  position: absolute;
+  top: 30%;
+  right: 20px;
+}
+
+.jumbotron {
+  background-image: url('../image/backgroundairplane.jpg');
+  background-size: cover; /* Memastikan gambar background mengisi seluruh area */
+  background-position: center; /* Memposisikan gambar background di tengah */
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron h1 {
+  font-weight: bold;
+  font-size: 4.5vw;
+  color: cornsilk;
+  text-shadow: 2px 2px black;
+}
+
+.rutepenerbangan {
+  padding: 6vw 0px 15vw;
+}
+.rutepenerbangan h2 {
+  color: #1170ff;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px black;
+}
+
+.formpendaftaran {
+  padding: 50px 0px;
+}
+
+.formpendaftaran form {
+  margin: auto;
+  background-color: #bbd5fd;
+  width: max-content;
+  padding: 20px 40px;
+  border: 1px solid #000;
+}
+.formpendaftaran form input {
+  width: 300px;
+}
+
+.formpendaftaran form table .button {
+  margin: auto;
+  margin-top: 15px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  background-color: #3888ff;
+  display: flex;
+  justify-content: center;
+}
+
+.tabledaftarrute {
+  width: 90%;
+  margin: auto;
+  padding-top: 14vw;
+}
+
+.tabledaftarrute td,
+th {
+  border: 1px solid #000;
+}
+
+.tabledaftarrute table {
+  border-collapse: separate;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #4a93fe;
+  text-align: center;
+  font-weight: bold;
+}
