@@ -89,8 +89,8 @@
         </table>
       </form>
       <?php
+      // Tangkap data yang dikirimkan melalui form
       if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        // Tangkap data yang dikirimkan melalui form
         $maskapai = $_POST['maskapai'];
         $bandara_asal = $_POST['bandara_asal'];
         $bandara_tujuan = $_POST['bandara_tujuan'];
@@ -99,7 +99,7 @@
         // Baca konten file JSON
         $jsonData = file_get_contents('data/data.json');
 
-        // Decode konten JSON menjadi array
+        // mengubah objek JSON menjadi objek PHP
         $data = json_decode($jsonData, true);
 
         // Tambahkan data baru ke dalam array "data"
@@ -112,7 +112,7 @@
 
         $data["data"][] = $newData;
 
-        // Encode array ke format JSON
+        // mengubah format data array menjadi format JSON 
         $newJsonData = json_encode($data, JSON_PRETTY_PRINT);
 
         // Simpan kembali ke file JSON
