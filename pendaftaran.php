@@ -110,6 +110,7 @@
           "harga_tiket" => $harga_tiket
         ];
 
+        //dilakukan penambahan data baru ke dalam array "data" yang ada di variabel $data.
         $data["data"][] = $newData;
 
         // mengubah format data array menjadi format JSON 

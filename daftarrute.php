@@ -52,8 +52,10 @@
         // Membaca isi file JSON
         $jsonData = file_get_contents('data/data.json');
 
-        // Menguraikan (decode) data JSON menjadi struktur data PHP
+        // mengubah objek JSON menjadi objek PHP
         $data = json_decode($jsonData, true);
+
+        sort($data['data']);
 
         foreach ($data['data'] as $item) {
           $maskapai = $item['maskapai'];
