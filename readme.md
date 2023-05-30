@@ -36,3 +36,25 @@ tugasProject
  ┃   ┗ bootstrap-5.3.0-alpha3-dist
  ┣ .gitignore
  ┗ readme.md
+ 
+ 
+## Hierarki File
+Berikut adalah hierarki file dalam proyek ini:
+
+ - tugasProject/
+  - public/
+    - css/
+      - main.css
+    - image/
+      - airplane-svgrepo-com.svg
+      - backgroundairplane.jpg
+    - daftarrute.php
+    - index.php
+    - pendaftaran.php
+  - resource/
+    - data/
+      - data.json
+    - library/
+      - bootstrap-5.3.0-alpha3-dist/
+  - .gitignore
+  - readme.md
