@@ -102,6 +102,7 @@
         // mengubah objek JSON menjadi objek PHP
         $data = json_decode($jsonData, true);
 
+        //menambahkan fungsi untuk meng total harga keseluruhan
         function pajakBandara($pajakBandaraAsal, $pajakBandaraTujuan)
         {
           $pajak = [
@@ -134,7 +135,7 @@
         }
 
 
-
+        //menambahkan fungsi untuk meng total pajak bandara asal dan bandara tujuan
         function totalHarga($totalPajak, $hargaTiket)
         {
           return $hasil = $totalPajak + $hargaTiket;
