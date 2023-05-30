@@ -17,8 +17,7 @@ Pada website rute penerbangan terdapat fitur - fitur yang terlatak pada navbar d
 - Selanjutnya anda dapat menginputkan data rute penerbangan yang anda inginkan
 
 2. **Melihat Daftar Rute yang Tersedia**
-
--Pada menu navbar sebelah kiri anda dapat mengklik "Daftar Rute".
+   -Pada menu navbar sebelah kiri anda dapat mengklik "Daftar Rute".
 
 - Selanjutnya anda dapat melihat daftar rute yang tersedia pada table.
 
