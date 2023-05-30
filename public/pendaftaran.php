@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tugas Project</title>
-
-  <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/style/main.css" />
+  <link rel="stylesheet" href="../resource/library/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
@@ -17,7 +16,7 @@
       <hr class="border border-info border-3 opacity-75" />
       <div class="container-fluid">
         <a class="navbar-brand text-dark-emphasis" href="#">
-          <img src="assets/image/airplane-svgrepo-com.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+          <img src="image/airplane-svgrepo-com.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
           Fadhil
         </a>
       </div>
@@ -97,7 +96,7 @@
         $harga_tiket = $_POST['harga_tiket'];
 
         // Baca konten file JSON
-        $jsonData = file_get_contents('data/data.json');
+        $jsonData = file_get_contents('../resource/data/data.json');
 
         // mengubah objek JSON menjadi objek PHP
         $data = json_decode($jsonData, true);
@@ -159,7 +158,7 @@
         $newJsonData = json_encode($data, JSON_PRETTY_PRINT);
 
         // Simpan kembali ke file JSON
-        file_put_contents('data/data.json', $newJsonData);
+        file_put_contents('../resource/data/data.json', $newJsonData);
       } ?>
     </div>
   </main>

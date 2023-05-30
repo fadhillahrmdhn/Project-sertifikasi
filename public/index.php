@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tugas Project</title>
 
-  <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/style/main.css" />
+  <link rel="stylesheet" href="../resource/library/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body class="background">
@@ -17,7 +17,7 @@
       <hr class="border border-info border-3 opacity-75" />
       <div class="container-fluid">
         <a class="navbar-brand text-dark-emphasis" href="#">
-          <img src="assets/image/airplane-svgrepo-com.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+          <img src="image/airplane-svgrepo-com.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
           Fadhil
         </a>
       </div>
